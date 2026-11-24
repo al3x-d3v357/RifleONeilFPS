@@ -1,6 +1,15 @@
 # RifleONeilFPS (Unity 6 URP)
 
+**Versão Atual**: `v1`
+
 Jogo de tiro em primeira pessoa (FPS) no **Unity 6 (6000.6.8f1)** com **URP**, usando o rifle futurista `O'NEIL` modelado no Blender (`#1B365D`, `#005A9C`, `#60C1E5`, `#A0E0EF`) para atirar e destruir ondas de cubos-alvo.
+
+## Histórico de Versões
+
+### v1 — 23/11/2026
+- Projeto FPS completo com cenas `Assets/Scenes/FPSArena.unity` e `Assets/Scenes/SampleScene.unity`.
+- Scripts principais: `FPSGameManager.cs`, `FPSPlayerController.cs`, `RifleReloadAnimator.cs`, `RifleShooter.cs`, `TargetCube.cs` e `Editor/FPSSceneSetup.cs`.
+- Documentação padronizada para versionamento em `D:\Projetos\Unity\RifleONeilFPS\README.md`.
 
 ## Recursos Implementados
 - **Modo Duplo de Disparo (`RifleShooter.cs`)**:
